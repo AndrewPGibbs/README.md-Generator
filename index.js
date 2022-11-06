@@ -21,12 +21,6 @@ const questions = [
     message: 'Description of the project',
   },
   {
-    type: 'checkbox',
-    name: 'contents',
-    message: 'What are the contents you would like to include in this README?',
-    choices: ['installation', 'usage', 'license', 'contributors', 'test instructions', ]
-  },
-  {
     type: 'input',
     name: 'installation',
     message: 'Please describe the steps of installing the necessary files',
@@ -45,7 +39,7 @@ const questions = [
   {
     type: 'input',
     name: 'contributing',
-    message: 'instructions on how to contribute?',
+    message: 'please provide instructions on how to contribute',
   },
   {
     type: 'input',
