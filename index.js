@@ -52,11 +52,6 @@ const questions = [
     name: 'test_instructions',
     message: 'Steps for testing this project',
   },
-  {
-    type: 'input',
-    name: 'contact',
-    message: '',
-  },
 ];
 
 //a function to write README file

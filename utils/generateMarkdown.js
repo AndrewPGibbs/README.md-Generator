@@ -3,10 +3,10 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ### Project Description
+  ## Project Description
   ${data.description}
 
-  ### Table of Contents
+  ## Table of Contents
   1. Installation (#installation)
   2. Usage (#usage)
   3.Contributing (#contributing)
@@ -14,22 +14,19 @@ function generateMarkdown(data) {
   5. License (#license)
   6. Questions (#questions)
 
-  ### Installation
+  ## Installation
   ${data.installation}
-
-  ### Usage
+  ## Usage
   ${data.usage}
-
-  ### Contributing
+  ## Contributing
   ${data.contributing}
-
-  ### Testing
+  ## Testing
   ${data.test_instructions}
 
-  ### License
+  ## License
   ${data.license}
 
-  ### Questions
+  ## Questions
   If you have any questions please feel free to contact me at:
   1) Github: https://github.com/${data.username}
 
