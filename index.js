@@ -44,13 +44,18 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contributors',
-    message: 'List contributors',
+    name: 'contributing',
+    message: 'instructions on how to contribute?',
   },
   {
     type: 'input',
-    name: 'test instructions',
+    name: 'test_instructions',
     message: 'Steps for testing this project',
+  },
+  {
+    type: 'input',
+    name: 'contact',
+    message: '',
   },
 ];
 
